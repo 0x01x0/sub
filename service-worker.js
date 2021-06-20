@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "973109736155929b50e2c7779fe23b28"
+    "revision": "69c44cd776e5543ec6edecabd9d949da"
   },
   {
     "url": "assets/css/0.styles.3cb8d2af.css",
@@ -70,12 +70,20 @@ self.__precacheManifest = [
     "revision": "181e116cd75d723491f3b702532250dd"
   },
   {
-    "url": "assets/js/app.63ab7a85.js",
-    "revision": "f1f57f4db59015774814def874570f14"
+    "url": "assets/js/app.c2b99ada.js",
+    "revision": "9a1a18f2ddc3b77a141bd2b79d5b5783"
   },
   {
     "url": "Document/index.html",
-    "revision": "ee1ebc4f682105cc3b45c377251f10a8"
+    "revision": "2dd69e93a94724295a809f0bfa9f9c53"
+  },
+  {
+    "url": "img/jellyfin.css",
+    "revision": "4f882f225caa9912c3c3219c5bc949f3"
+  },
+  {
+    "url": "img/jellyfin.png",
+    "revision": "a1f673e7df715f16dae49f4874009082"
   },
   {
     "url": "img/logo.jpeg",
@@ -87,15 +95,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7bdab4c7fa46783036f5d1b1f911ae8f"
+    "revision": "8442e25409b663b7a0e5aa8df9d463b7"
   },
   {
     "url": "Pay/index.html",
-    "revision": "3e7285016f5e41c96b92c951d49dc005"
+    "revision": "7f9f3c5f9c27b0f829fa7087a309b357"
   },
   {
     "url": "Usage/index.html",
-    "revision": "eea6dad03bb35a0166525c7eb36129f0"
+    "revision": "f157f54785d211222be2f43efc0c95df"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
